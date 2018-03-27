@@ -1,0 +1,131 @@
+html,
+body,
+.main-content {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+/* .main-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+} */
+
+.card-custom {
+  min-width: 450px;
+  width: 450px;
+  min-height: 560px !important;
+  padding: 50px;
+}
+
+.card-custom span {
+  display: block
+}
+
+.card-custom p {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  min-height: 135px;
+  margin-bottom: 50px;
+  clear: both;
+}
+
+.card-custom p::before {
+  content: '“';
+  font-size: 70px;
+  font-family: 'Abril Fatface', cursive !important;
+  color: #3742fa;
+  font-weight: initial;
+  line-height: 0
+}
+
+.card-custom span.meta-author {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #57606f;
+}
+
+.card-custom .btn-custom {
+  text-transform: initial;
+  border-color: #3742fa;
+  background: #3742fa;
+  margin: 10px;
+  border-width: 0;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+  font-family: inherit;
+  padding: 0px 50px;
+  overflow: hidden;
+  border-radius: 50px;
+  -webkit-transition: all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
+  transition: all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+
+.card-custom .author-img {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: 4px solid #3742fa;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.card-custom .twitter-share-button {
+  float: right;
+  margin-bottom: 30px;
+  text-transform: initial;
+  background: transparent;
+  color: #7b8b8e;
+  font-weight: 600;
+  border: 2px solid rgba(48, 73, 97, 0.1);
+  margin: 0 0 50px 0;
+  font-weight: 400;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  font-family: inherit;
+  padding: 5px 20px;
+  overflow: hidden;
+  border-radius: 50px;
+  -webkit-transition: all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
+  transition: all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+
+.card-custom a.twitter-share-button .fa-twitter {
+  margin-right: 10px;
+  vertical-align: middle
+}
